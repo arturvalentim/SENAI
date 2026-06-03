@@ -1,0 +1,28 @@
+h1 {
+    color:blue;
+}
+
+.second {
+    color:#00ffff;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h2 {
+    color: #ff28d1;
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#four {
+    color: yellow;
+    font-weight: 13px;
+}
+
+#fifth {
+    color: #8e8e8e;
+    font-weight: 400;
+    font-size: 13px;
+}
