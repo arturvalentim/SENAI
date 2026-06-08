@@ -1,0 +1,30 @@
+body{
+    background-color: #1a1a24 ;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container-gamer{
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+h1 {
+    color: #00d2ff;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.bloco {
+    font-size: 1.2rem;
+    border-radius: 4px;
+}
+.azul {
+    background-color: #28a745;
+    padding: 15px;
+}

@@ -1,0 +1,19 @@
+header {
+    background-color: purple;
+    color:white;
+    font-weight:bold
+}
+h1{
+    font-weight: bold;
+}
+span{
+    color:lightcoral;
+    font-weight: bold;
+}
+footer{
+    background-color: purple;
+    color:white;
+}
+main{
+    background-color: white;
+}
