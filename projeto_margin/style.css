@@ -25,6 +25,14 @@ h1 {
     border-radius: 4px;
 }
 .azul {
-    background-color: #28a745;
+    background-color: blue;
     padding: 15px;
+}
+.verde {
+    background-color: green;
+    padding: 0;
+}
+.laranja {
+    background-color: orangered;
+    padding: 1%;
 }
