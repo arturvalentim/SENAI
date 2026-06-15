@@ -1,0 +1,112 @@
+/* Configurações Globais do Tema Escuro */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0b111e; /* Fundo azul bem escuro igual ao print */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #00d2ff;
+    border: 2px solid #ff4500;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Container dos Cards */
+.container {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilização dos Textos Informativos */
+.label {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #cccccc;
+    text-align: center;
+}
+
+.label-yellow {
+    color: #000;
+    background-color: #ffd700;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+.label-purple {
+    color: #fff;
+    background-color: #8a2be2;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+
+/* Caixa onde a imagem de fundo será aplicada */
+.bg-box {
+    width: 100%;
+    height: 250px;
+    background-color: #0d1b2a; /* Cor interna da caixa */
+    border: 2px solid #ffffff;  /* Borda branca igual ao print */
+}
+
+/* ==========================================================
+   PROPRIEDADES DE BACKGROUND (Onde a mágica acontece)
+   ========================================================== */
+
+/* 1. Repeat (Padrão) */
+.bg-repeat {
+    background-image: url(./assets/img1.png);
+    background-repeat: repeat; /* Já é o padrão, mas deixei explícito */
+}
+
+/* 2. No Repeat */
+.bg-no-repeat {
+    background-image: url(./assets/img\ 2\ .png); /* Avatar do Mob */
+    background-repeat: no-repeat;
+    background-size: 80px; /* Ajusta o tamanho do avatar */
+}
+
+/* 3. Center */
+.bg-center {
+    background-image: url(./assets/img\ 3\ .png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+}
+
+/* 4. Cover */
+.bg-cover {
+    background-image: url(./assets/img\ 4.png); /* Imagem do Gojo/Aura */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Faz a imagem cobrir todo o espaço sem distorcer */
+}
+
+/* 5. Canto Inferior Direito */
+.bg-bottom-right {
+    background-image: url(./assets/img\ 5\ .png);
+    background-repeat: no-repeat;
+    background-position: bottom right; /* Posiciona embaixo e na direita */
+    background-size: 80px;
+}

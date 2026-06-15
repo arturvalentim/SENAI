@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
+    padding:30px;
+}
+
+button{
+    width:150px;
+    height:40px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* 1 */
+.download{
+    background:#fff;
+    border:1px solid #000;
+}
+
+.download:hover{
+    background:#000;
+    color:#fff;
+}
+
+/* 2 */
+.acessar-azul{
+    background:#9bdff1;
+    border:none;
+    border-radius:25px;
+}
+
+.acessar-azul:hover{
+    background:#7fd3ea;
+}
+
+/* 3 */
+.comprar{
+    background:#39ec5a;
+    border:none;
+    border-radius:12px;
+}
+
+.comprar:hover{
+    background:#8cf59d;
+}
+
+/* 4 */
+.login-rosa{
+    background:#ff00cc;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+}
+
+.login-rosa:hover{
+    background:#fff;
+    color:#ff00cc;
+    border:1px solid #ff00cc;
+}
+
+/* 5 */
+.acessar-vermelho{
+    background:#fff;
+    color:red;
+    border:1px solid red;
+    border-radius:25px;
+}
+
+.acessar-vermelho:hover{
+    background:red;
+    color:#fff;
+}
+
+/* 6 */
+.login-cinza{
+    background:#ececec;
+    border:2px solid #333;
+    border-radius:4px;
+}
+
+.login-cinza:hover{
+    background:#666;
+    color:#fff;
+}
+
+/* 7 */
+.saiba-mais{
+    border:none;
+    border-bottom:1px solid #666;
+    background:transparent;
+}
+
+.saiba-mais:hover{
+    color:#666;
+}
+
+/* 8 */
+.pesquisar{
+    background:#f7c331;
+    border:2px solid #d8a300;
+    border-radius:4px;
+}
+
+.pesquisar:hover{
+    background:#fff;
+    border-color:#f7c331;
+}
+
+/* 9 */
+.login-verde{
+    background:#19f000;
+    border:1px solid #0f9400;
+    border-radius:25px;
+}
+
+.login-verde:hover{
+    background:#006d12;
+    color:#fff;
+}
+
+/* 10 */
+.acessar-roxo{
+    background:#fff;
+    color:purple;
+    border:1px dashed purple;
+    border-radius:25px;
+}
+
+.acessar-roxo:hover{
+    background:purple;
+    color:#fff;
+    border:none;
+}
